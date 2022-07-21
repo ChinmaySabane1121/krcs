@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:krcs/Navigation_Drawer.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class RedCross extends StatefulWidget {
   const RedCross({Key? key}) : super(key: key);
@@ -15,9 +17,10 @@ class _RedCrossState extends State<RedCross> {
       color: Colors.orange[50],
       home: Scaffold(
           backgroundColor: Colors.deepOrange[50],
+          drawer:NavigationDrawer(),
           appBar: AppBar(
-            leading: Icon(Icons.add_circle_outline_rounded,
-                color: Colors.redAccent, size: 50.0),
+
+
             title: Text('IRCS-Karnataka State Branch'),
           ),
           body: SafeArea(

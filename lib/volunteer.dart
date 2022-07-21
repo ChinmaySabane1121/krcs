@@ -14,7 +14,7 @@ class _VolunteerState extends State<Volunteer> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Become a Blood Donor'),
+        title: const Text('Become a Volunteer'),
         backgroundColor: Colors.red[700],
       ),
       body: const WebView(
